@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hodnocení</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="server.js"></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Hodnocení</h1>
+        <article>
+          <button onclick="rateProduct(1)">😡</button>
+          <button onclick="rateProduct(2)">🥴</button>
+          <button onclick="rateProduct(3)">😐</button>
+          <button onclick="rateProduct(4)">🙂</button>
+          <button onclick="rateProduct(5)">😍</button>
+        </article>
+      </section>
+      <section id="graphDisplay"></section>
+    </main>
+  </body>
+</html>
